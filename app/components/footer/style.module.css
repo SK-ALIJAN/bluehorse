@@ -1,0 +1,15 @@
+.main{
+  position: absolute;
+  bottom: 1px;
+  padding: 2rem;
+  display: flex;
+  background-color: aqua;
+  width: 100%;
+  justify-content: space-around;
+  color: black;
+}
+.menus{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

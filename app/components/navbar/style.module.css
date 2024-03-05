@@ -1,0 +1,30 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aqua;
+    padding: 10px;
+    color: black;
+
+}
+
+.logo {
+    text-transform: capitalize;
+    font-size: large;
+}
+
+.menus {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    align-items: center;
+}
+.main button{
+ transition: all 0.2 ease-in-out;
+ padding: 3px;
+ border-radius: 5px;
+ border: 0;
+}
+.main button:active {
+    transform: scale(1.1);
+}
